@@ -1,0 +1,16 @@
+ vi /etc/named.conf
+  985  systemctl enable named
+  986  systemctl restart named
+  987  cd /var/named/
+  988  ll
+  989  vi forward_technature
+  990  vi reverse_technature
+  991  systemctl restart named
+  992  systemctl status named
+  993  vi forward_technature
+  994  vi reverse_technature
+  995  systemctl restart named
+  996  nslookup
+  997  vi reverse_technature
+  998  systemctl restart named
+  999  nslookup
